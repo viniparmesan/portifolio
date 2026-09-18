@@ -128,7 +128,10 @@ body {
     }
 
     .cabecalho__menu {
-        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+
     }
 
     .apresentacao {
@@ -144,5 +147,17 @@ body {
         width: 70%;
     }
    
+    .rodape {
+        text-align: center;
+    }
+}
+
+@media (max-width: 620px) {
+
+    .cabecalho__menu {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
 }
     
